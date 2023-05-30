@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FoodSta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
 
@@ -14,7 +20,7 @@
         ><img src="./images/Vector.svg" alt="Logo" width="66" height="52"
       /></a>
       <nav class="navigat">
-        <ul class="navigat-list">
+        <ul class="navigat-list list">
           <li><a class="navigat-link link" href="./index.html">Home</a></li>
           <li><a class="navigat-link link" href="">About</a></li>
           <li><a class="navigat-link link" href="">Service</a></li>
@@ -22,7 +28,7 @@
           <li><a class="navigat-link link" href="">Contact</a></li>
         </ul>
       </nav>
-      <button class="navigat-button" type="button">Order Now</button>
+      <button class="order-button" type="button">Order Now</button>
     </header>
 
     <main>
@@ -35,7 +41,7 @@
           enjoy a hassle-free and delicious meal from the comfort of your own
           home.
         </p>
-        <button type="button" class="hero-button">Order Now</button>
+        <button type="button" class="order-button">Order Now</button>
         <img
           src="./images/hero-photo.png"
           alt="Plate with food"
@@ -129,7 +135,7 @@
         </ul>
       </section>
 
-      <!-- --------------Customers------------- -->
+      <!-- --------------Customers Say------------- -->
       <section class="customers">
         <h2 class="customers-title">What our Customers Say</h2>
         <p class="customers-text">
@@ -168,11 +174,8 @@
           Food From Anywhere.
         </p>
         <form action="">
-          <input placeholder="Enter your email" type="text" /><button
-            type="submit"
-          >
-            Subscribe
-          </button>
+          <input placeholder="Enter your email" type="text" />
+          <button class="order-button" type="submit">Subscribe</button>
         </form>
         <img src="./images/banan.png" alt="banan" width="608" height="266" />
       </section>
@@ -184,7 +187,7 @@
         ><img src="./images/Vector.svg" alt="logo" width="66" height="52"
       /></a>
       <nav>
-        <ul class="navigat-link">
+        <ul class="navigat-link list">
           <li><a class="navigat-link link" href="./index.html">Home</a></li>
           <li><a class="navigat-link link" href="">About</a></li>
           <li><a class="navigat-link link" href="">Service</a></li>
@@ -192,22 +195,19 @@
           <li><a class="navigat-link link" href="">Contact</a></li>
         </ul>
       </nav>
-      <ul class="footer-list">
-        <li><a class="footer-link link" href="">Privacy Policy</a></li>
-        <li><a class="footer-link link" href="">Terms of Service</a></li>
-        <li><a class="footer-link link" href="">Cookies Settings</a></li>
+      <ul class="footer-list list">
+        <li><a class="footer-link" href="">Privacy Policy</a></li>
+        <li><a class="footer-link" href="">Terms of Service</a></li>
+        <li><a class="footer-link" href="">Cookies Settings</a></li>
       </ul>
       <p class="footer-subscribe">Subscribe</p>
       <form action="">
-        <input placeholder="Enter your email" type="text" /><button
-          type="submit"
-        >
-          Subscribe
-        </button>
+        <input placeholder="Enter your email" type="text" />
+        <button class="subscribe-button" type="submit">Subscribe</button>
       </form>
       <p class="privacy-policy">
         By subscribing you agree to with our
-        <a class="privacy-policy-link link" href="">Privacy Policy</a>
+        <a class="privacy-policy-link" href="">Privacy Policy</a>
       </p>
       <p class="all-rights">2022 FoodSta. All right reserved.</p>
     </footer>
